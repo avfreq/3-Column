@@ -33,7 +33,7 @@
   height: 100%;
 }
 .container .col1 .ul1-list1 {
-  background-image: url(../../img/icon-sedans.svg);
+  background-image: url(/icon-sedans.2d71dc3a.svg);
   background-repeat: no-repeat;
   width: 100px;
   height: 50px;
@@ -79,7 +79,7 @@
   height: 100%;
 }
 .container .col2 .ul2-list1 {
-  background-image: url(../../img/icon-suvs.svg);
+  background-image: url(/icon-suvs.de0b7e1c.svg);
   background-repeat: no-repeat;
   width: 100px;
   height: 50px;
@@ -126,7 +126,7 @@
   height: 100%;
 }
 .container .col3 .ul3-list1 {
-  background-image: url(../../img/icon-luxury.svg);
+  background-image: url(/icon-luxury.fbefe87a.svg);
   background-repeat: no-repeat;
   width: 100px;
   height: 50px;
@@ -214,4 +214,4 @@
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=/main.d9ee62f6.css.map */

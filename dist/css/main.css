@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.body {
+  font-size: 0.95rem;
+}
+
+.container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+.container .col1 {
+  grid-row: 2/5;
+  grid-column: 2/3;
+  background-color: #E38826;
+  border-radius: 10px 0 0 10px;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 50px;
+}
+.container .col2 {
+  grid-row: 2/5;
+  grid-column: 3/4;
+  background-color: #006970;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 50px;
+}
+.container .col3 {
+  grid-row: 2/5;
+  grid-column: 4/5;
+  background-color: #004241;
+  border-radius: 0 10px 10px 0;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,174 @@
+@use 'global' as g;
+
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 2.5fr 1fr;
+
+
+    .col1 { // Left column
+        grid-row: 2/3;
+        grid-column: 2/3;
+        background-color: g.$color-1;
+        border-radius: 10px 0 0 10px;
+        color: g.$color-4;
+        padding: 50px;    
+
+        .ul1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: auto;
+            height: 100%;
+
+            &-list1 {
+                background-image: url(../../img/icon-sedans.svg);
+                background-repeat: no-repeat;
+                width: 100px;
+                height: 50px;
+            }
+
+            &-list2 {
+                line-height: 25px;
+                font-family: 'Lexend Deca', sans-serif;
+
+                h2 { // sedans
+                    font-family: 'Big Shoulders Display', cursive;
+                    font-size: 2.2rem;
+                    margin-bottom: 2rem;
+                    text-transform: uppercase;
+                    color: g.$color-5;
+                }
+            }
+
+            a {
+                color: g.$color-1;
+                display: grid;
+                width: 130px;
+                height: 40px;
+                background-color: g.$color-5;
+                border-radius: 50px;
+                justify-content: center;
+                align-content: center;
+                margin-top: 20px;
+            }
+
+            a:hover {
+                content: '';
+                opacity: .8;
+            }
+        }
+    }
+
+    .col2 { // Center column
+        grid-row: 2/3;
+        grid-column: 3/4;
+        background-color: g.$color-2;
+        color: g.$color-4;
+        padding: 50px;
+        
+        .ul2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: auto;
+            height: 100%;
+        
+    
+            &-list1 {
+                background-image: url(../../img/icon-suvs.svg);
+                background-repeat: no-repeat;
+                width: 100px;
+                height: 50px;
+            }
+    
+            &-list2 {
+                line-height: 25px;
+                font-family: 'Lexend Deca', sans-serif;
+
+                h2 { // suvs
+                    font-family: 'Big Shoulders Display', cursive;
+                    font-size: 2.2rem;
+                    margin-bottom: 2rem;
+                    text-transform: uppercase;
+                    color: g.$color-5;
+                }
+            }
+    
+            a {
+                color: g.$color-2;
+                display: grid;
+                width: 130px;
+                height: 40px;
+                background-color: g.$color-5;
+                border-radius: 50px;
+                justify-content: center;
+                align-content: center;
+                margin-top: 20px;
+            }
+
+            a:hover {
+                content: '';
+                opacity: .8;
+            }
+        }
+    }
+
+    .col3 { // Right column
+        grid-row: 2/3;
+        grid-column: 4/5;
+        background-color: g.$color-3;
+        border-radius: 0 10px 10px 0;
+        color: g.$color-4;
+        padding: 50px;
+        
+        .ul3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: auto;
+            height: 100%;
+        
+    
+            &-list1 {
+                background-image: url(../../img/icon-luxury.svg);
+                background-repeat: no-repeat;
+                width: 100px;
+                height: 50px;
+            }
+    
+            &-list2 {
+                line-height: 25px;
+                font-family: 'Lexend Deca', sans-serif;
+
+                h2 { // luxury
+                    font-family: 'Big Shoulders Display', cursive;
+                    font-size: 2.2rem;
+                    margin-bottom: 2rem;
+                    text-transform: uppercase;
+                    color: g.$color-5;
+                }
+            }
+    
+            a {
+                color: g.$color-3;
+                display: grid;
+                width: 130px;
+                height: 40px;
+                background-color: g.$color-5;
+                border-radius: 50px;
+                justify-content: center;
+                align-content: center;
+                margin-top: 20px;
+            }
+
+            a:hover {
+                content: '';
+                opacity: .8;
+            }
+        }
+    }
+}
+

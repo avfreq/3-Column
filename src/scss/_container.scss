@@ -5,7 +5,7 @@
     width: 100vw;
     height: 100vh;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr 2.5fr 1fr;
+    grid-template-rows: 1fr 2.5fr .2fr 1fr;
 
 
     .col1 { // Left column
@@ -169,6 +169,14 @@
                 opacity: .8;
             }
         }
+    }
+
+    .attribution {
+        grid-row: 3/4;
+        grid-column: 2/5;
+        justify-content: center;
+        align-self: center;
+        display: flex;
     }
 }
 
